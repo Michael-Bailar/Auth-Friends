@@ -17,7 +17,7 @@ const Login = props => {
     const handleSubmit = e => {
         e.preventDefault()
         console.log('Login credentials', credentials)
-        axios
+        axiosWithAuth()
             .post('http://localhost:5000/api/login', credentials)
             .then(res => {
                 console.log(res)
@@ -34,12 +34,14 @@ const Login = props => {
                 <input
                     type='text'
                     name='username'
+                    placeholder='username'
                     value={credentials.username}
                     onChange={handleChange}
                 />
                 <input 
                     type='password'
                     name='password'
+                    placeholder='password'
                     value={credentials.password}
                     onChange={handleChange}
                 />

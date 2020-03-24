@@ -13,37 +13,43 @@ let friends = [
     id: 1,
     name: 'Rachel Green',
     age: 30,
-    email: 'rachel@friends.com'
+    email: 'rachel@friends.com',
+    connection: 'TV'
   },
   {
     id: 2,
     name: 'Joey Tribbiani',
     age: 34,
-    email: 'joey@friends.com'
+    email: 'joey@friends.com',
+    connection: 'TV'
   },
   {
     id: 3,
     name: 'Chandler Bing',
     age: 32,
-    email: 'chandler@friends.com'
+    email: 'chandler@friends.com',
+    connection: 'TV'
   },
   {
     id: 4,
     name: 'Ross Geller',
     age: 32,
-    email: 'ross@friends.com'
+    email: 'ross@friends.com',
+    connection: 'TV'
   },
   {
     id: 5,
     name: 'Monica Bing',
     age: 31,
-    email: 'monica@friends.com'
+    email: 'monica@friends.com',
+    connection: 'TV'
   },
   {
     id: 6,
     name: 'Phoebe Buffay-Hannigan',
     age: 30,
-    email: 'phoebe@friends.com'
+    email: 'phoebe@friends.com',
+    connection: 'TV'
   }
 ];
 
